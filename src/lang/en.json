@@ -1,0 +1,36 @@
+{
+    "greeting": "Hello, World!",
+    "homeTabLabel": "Home",
+    "EditProfile":"Edit Profile",
+    "Language":"Language",
+    "English":"English",
+    "Arabic":"Arabic",
+    "Mode":"Mode",
+    "Dark":"Dark",
+    "Light":"Light",
+    "Dashboard":"Dashboard",
+    "SavedArticles":"Saved Articles",
+    "MyPlaylists":"My Playlists",
+    "SavedNewspaper":"Saved Newspaper",
+    "FollowingPublishers":"Following Publishers",
+    "Notifications" : "Notifications",
+    "Games":"Games",
+    "SignOut":"SignOut",
+    "Newspaper": "Newspapers",
+    "Articles":"Articles",
+    "Profile":"Profile",
+    "LatestArticles":"Latest Articles",
+    "SeeMore":"See More",
+    "RecommendedNewspaper":"Recommended Newspaper",
+    "ArticleList":"Article Lists",
+    "PopularWriter" :"Popular Writer",
+    "ExploreArticles":"Explore Articles by Categories",
+    "Search":"Search"
+
+
+
+
+  }
+
+
+  

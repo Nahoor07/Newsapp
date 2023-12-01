@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "akhbarcast",
+    "slug": "akharcast",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "plugins": [
+        [
+          "expo-document-picker",
+          {
+            "iCloudContainerEnvironment": "Production"
+          }
+        ],
+        [
+          "expo-image-picker",
+          {
+            "photosPermission": "The app accesses your photos to let you share them with your friends."
+          }
+        ]
+      ]
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true,
+        "NSMicrophoneUsageDescription": "We need access to the microphone for audio recording.",
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      }
+    },
+    "locales": {
+      "ar": "./languages/arabic.json"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "RECORD_AUDIO",
+        "PLAY_AUDIO"
+      ],
+      "package": "com.nahoor007.akhbarcast"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "88f32864-5906-41c2-b2c5-05295cd0f872"
+      }
+    },
+    "plugins": [
+      "expo-localization"
+    ]
+  }
+}
